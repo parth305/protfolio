@@ -10,24 +10,24 @@ const Navbar = ({shownav}) => {
   return (
     <nav className="navbar fixed bg-purple-900 w-fit rounded-2xl top-9 font-bold z-10 flex justify-center py-2 px-4" style={{display:shownav?"block":"none"}}>
     <ul className={`flex justify-center align-middle text-white py-2 ${drop?"nav-links-disable":"nav-links-visble"}`}>
-        <a href="#home">
+        <a href="#home" onClick={handleclick}>
             <li className="px-5 py-2 cursor-pointer hover:bg-white hover:text-black  hover:rounded-md">Home</li>
         </a>
-        <a href="#experience">
+        <a href="#experience" onClick={handleclick}>
             <li className="px-5 py-2 cursor-pointer hover:bg-white hover:text-black  hover:rounded-md">Experience
             </li>
         </a>
-        <a href="#skills">
+        <a href="#skills" onClick={handleclick}>
             <li className="px-5 py-2 cursor-pointer hover:bg-white hover:text-black  hover:rounded-md">Skills</li>
         </a>
-        <a href="#projects">
+        <a href="#projects" onClick={handleclick}>
             <li className="px-5 py-2 cursor-pointer hover:bg-white hover:text-black  hover:rounded-md">Projects</li>
         </a>
-        <a href="#education">
+        <a href="#education" onClick={handleclick}>
             <li className="px-5 py-2 cursor-pointer hover:bg-white hover:text-black  hover:rounded-md">Education
             </li>
         </a>
-        <a href="#contact">
+        <a href="#contact" onClick={handleclick}>
             <li className="px-5 py-2 cursor-pointer hover:bg-white hover:text-black  hover:rounded-md">Contact</li>
         </a>
     </ul>

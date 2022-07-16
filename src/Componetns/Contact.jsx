@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div id="contact" className="bg-white">
-        <h1 className="text-2xl text-center text-black">Contact</h1>
+        <h1 className="text-2xl text-center text-black">Contact Parth</h1>
 
         <form action="https://script.google.com/macros/s/AKfycbyueuUeApF-bmoHIUEb4X04VqBPSh8DiSEtwOj1hk0mFC7I8OGmb_s8iaWU3k3aBkJg/exec" method='POST' className='form-container'>
             <label htmlFor="name">Name</label>

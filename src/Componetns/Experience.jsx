@@ -9,7 +9,7 @@ const Experience = () => {
             <h1 className='text-2xl'>Full stack Web Developer - intern</h1>
           <h2 className='text-xl font-bold'>Whatcode - an it service based company</h2>
           <small >June 2022 to Present</small>
-          <p className='font-normal'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum unde vel nisi at animi aliquam sunt facere sapiente minima porro.</p>
+          <p className='font-normal'>Wokred as full stack MERN Developer collbrated with professional team and created amazing websites. worked on backed with Node js and mongodb</p>
           </div>
         </div>
     </div>

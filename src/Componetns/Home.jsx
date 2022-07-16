@@ -10,8 +10,7 @@ const Home = () => {
         className="text-black conatiner spacer bg-green-200 layer1 flex flex-col-reverse space-y-24 space-y-reverse md:flex-row items-center justify-center pt-36 pb-28 md:space-x-10 md:justify-between md:px-36 lg:px-36 xl:px-72 2xl:justify-around text-center">
         <div className="w-11/12 sm:w-1/2 space-y-2">
             <h1 className="font-bold text-3xl">Parth Pandya</h1>
-            <p className="my-1"> clasLorem, ipsum dolor sit amet consectetur adipisicing elit. Earum repudiandae a
-                perferendis provident fuga quod minus sapiente aliquam, laudantium accusantium!</p>
+            <p className="my-1">Hard working college student passinote about coding and building new projects, looking for oppurtunity to work in industry to gain real life experience and learn new thing</p>
             <div className="text-center">
                 <button className=" rounded-[50%] mx-2 my-4 hover:cursor-pointer border-2 hover:bg-white hover:fill-white"><a
                         href="https://github.com/parth305" target="_blank"><img src={github} alt=""
